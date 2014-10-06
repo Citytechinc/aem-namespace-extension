@@ -1,4 +1,4 @@
-# AEM Namespace
+# AEM Namespace Extension
 
 The AEM Namespace proposes a series of types and properties with consistant meaning for use in any project willing to adhere to the meaning.  
 
