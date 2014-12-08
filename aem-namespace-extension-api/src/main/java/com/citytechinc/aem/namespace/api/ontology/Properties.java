@@ -23,11 +23,6 @@ public class Properties {
     public static final String CITYTECH_BRAND = Namespace.CITYTECH + ":brand";
 
     /**
-     * TODO: I don't know why we need this and it probably needs to be removed
-     */
-    public static final String CITYTECH_SITEMAP_RESOURCE_EXTENSION = Namespace.CITYTECH + ":locExtension";
-
-    /**
      * Indicates the presumed frequency of change of the associated resource
      */
     public static final String CITYTECH_SITEMAP_CHANGE_FREQUENCY = Namespace.CITYTECH + ":changeFrequency";
@@ -36,5 +31,10 @@ public class Properties {
      * Indicates the priority of the Resource among other resources with indicated priority.
      */
     public static final String CITYTECH_SITEMAP_PRIORITY = Namespace.CITYTECH + ":priority";
+
+    /**
+     * Indicates that a Page should not be indexed by robots such as search-engine crawl bots.
+     */
+    public static final String CITYTECH_HIDDEN_FROM_ROBOTS = Namespace.CITYTECH + ":hiddenFromRobots";
 
 }
