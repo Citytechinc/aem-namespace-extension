@@ -37,4 +37,28 @@ public class Properties {
      */
     public static final String CITYTECH_HIDDEN_FROM_ROBOTS = Namespace.CITYTECH + ":hiddenFromRobots";
 
+    /**
+     * Indicates the client library categories prefixing those included for an Authorable Design
+     */
+    public static final String CITYTECH_DESIGN_LIBRARY_PREFIX_CATEGORIES = Namespace.CITYTECH + ":designLibraryPrefixCategories";
+
+    /**
+     * Indicates the client library categories suffixing those included for an Authorable Design
+     */
+    public static final String CITYTECH_DESIGN_LIBRARY_SUFFIX_CATEGORIES = Namespace.CITYTECH + ":designLibrarySuffixCategories";
+
+    /**
+     * Indicates the categories which are to be included in the client library of an Authorable Design
+     */
+    public static final String CITYTECH_CLIENT_LIBRARY_CATEGORIES = Namespace.CITYTECH + ":clientLibraryCategories";
+
+    /**
+     * A multivalue string list of the Javascript files to include in a particular brand
+     */
+    public static final String CITYTECH_BRAND_JAVASCRIPT_FILES = Namespace.CITYTECH + ":brandJavascriptFiles";
+
+    /**
+     * A multivalue string list of the CSS or LESS files to include in a particular brand
+     */
+    public static final String CITYTECH_BRAND_CSS_FILES = Namespace.CITYTECH + ":brandCssFiles";
 }
