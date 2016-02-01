@@ -61,4 +61,9 @@ public class Properties {
      * A multivalue string list of the CSS or LESS files to include in a particular brand
      */
     public static final String CITYTECH_BRAND_CSS_FILES = Namespace.CITYTECH + ":brandCssFiles";
+
+    public static final String SEMANTIC_PROPERTY = Namespace.CITYTECH + ":property";
+
+    public static final String SEMANTIC_TYPEOF = Namespace.CITYTECH + ":typeof";
+
 }
