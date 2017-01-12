@@ -12,7 +12,7 @@ public final class Properties {
      * The classification or type of thing which the Resource intends to represent.  It is good practice
      * to set this to a tag or set of tags and not just a String.
      */
-    public static final String CITYTECH_CLASSIFICATION = Namespace.ICF_OLSON + ":classification";
+    public static final String ICF_OLSON_CLASSIFICATION = Namespace.ICF_OLSON + ":classification";
 
     /**
      * A representation of the Resource in the format of an icon or small image
