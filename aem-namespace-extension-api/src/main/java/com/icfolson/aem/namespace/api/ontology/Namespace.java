@@ -1,15 +1,17 @@
-package com.citytechinc.aem.namespace.api.ontology;
+package com.icfolson.aem.namespace.api.ontology;
 
-public class Namespace {
+public final class Namespace {
 
-    private Namespace() {}
+    private Namespace() {
+
+    }
 
     /**
-     * The CITYTECH namespace prefix. 
+     * The ICF Olson namespace prefix.
      */
-    public static final String CITYTECH = "ct";
+    public static final String ICF_OLSON = "icf";
 
-    public static final String CITYTECH_URI = "http://www.citytechinc.com/ns/aem/";
+    public static final String ICF_OLSON_URI = "http://www.icfolson.com/ns/aem/";
 
     public static final String RDF = "rdf";
 
