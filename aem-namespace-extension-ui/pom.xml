@@ -16,6 +16,7 @@
 
     <properties>
         <maven.test.skip>true</maven.test.skip>
+        <timestamp>${maven.build.timestamp}</timestamp>
         <assembly.descriptor>src/main/assembly/zip.xml</assembly.descriptor>
     </properties>
 
@@ -93,9 +94,9 @@
                 </executions>
             </plugin>
             <plugin>
-                <groupId>com.citytechinc.maven.plugins</groupId>
-                <artifactId>cq-package-maven-plugin</artifactId>
-                <version>0.3.0</version>
+                <groupId>com.icfolson.maven.plugins</groupId>
+                <artifactId>aem-package-maven-plugin</artifactId>
+                <version>0.6.0</version>
                 <executions>
                     <execution>
                         <phase>install</phase>
